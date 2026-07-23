@@ -20,16 +20,11 @@ export default {
           900: '#48381B',
         },
         dark: {
-          50: '#2A2A2A',
-          100: '#222222',
-          200: '#1A1A1A',
-          300: '#151515',
-          400: '#111111',
-          500: '#0D0D0D',
-          600: '#0A0A0A',
-          700: '#070707',
-          800: '#040404',
-          900: '#010101',
+          950: '#0a0a0a',
+          900: '#111111',
+          800: '#1a1a1a',
+          700: '#222222',
+          600: '#2a2a2a',
         },
       },
       fontFamily: {
@@ -43,6 +38,7 @@ export default {
         'glow-pulse': 'glowPulse 3s ease-in-out infinite',
         'float': 'float 6s ease-in-out infinite',
         'gradient-shift': 'gradientShift 8s ease-in-out infinite',
+        'spin-slow': 'spin 3s linear infinite',
       },
       keyframes: {
         fadeIn: {
@@ -74,6 +70,7 @@ export default {
         'gold': '0 0 20px rgba(200, 161, 90, 0.3)',
         'gold-lg': '0 0 40px rgba(200, 161, 90, 0.4)',
         'gold-xl': '0 0 60px rgba(200, 161, 90, 0.3)',
+        'card': '0 4px 20px rgba(0, 0, 0, 0.3)',
       },
     },
   },
