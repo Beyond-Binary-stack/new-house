@@ -7,8 +7,13 @@ export default function CompanyStory() {
       <div className="max-w-7xl mx-auto px-4 md:px-8">
         <AnimatedSection className="grid grid-cols-1 lg:grid-cols-2 gap-12 items-center">
           <div className="relative">
-            <div className="aspect-[4/3] bg-dark-800 border border-dark-600/30 flex items-center justify-center">
-              <span className="text-gray-600 text-sm">Company Image</span>
+            <div className="aspect-[4/3] overflow-hidden bg-dark-800">
+              <img
+                src="/gallery/tiles-marble/2.jpg"
+                alt="New House Decoration project"
+                className="w-full h-full object-cover"
+                loading="lazy"
+              />
             </div>
             <div className="absolute -bottom-4 -right-4 w-full h-full border border-gold-500/10 -z-10" />
           </div>

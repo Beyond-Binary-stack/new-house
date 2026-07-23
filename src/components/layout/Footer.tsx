@@ -12,7 +12,7 @@ export default function Footer() {
         <div className="grid grid-cols-1 md:grid-cols-3 gap-10 mb-10">
           <div>
             <Link to="/" className="inline-flex items-center gap-3 mb-4">
-              <img src="/logo.png" alt="NHD" className="h-10 w-auto" />
+              <img src="/assets/logo.png" alt="NHD" className="h-10 w-auto" />
               <span className="text-sm tracking-[0.3em] uppercase text-gold-500 font-display">
                 NHD
               </span>

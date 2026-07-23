@@ -12,7 +12,7 @@ export default function Navbar() {
       <div className="max-w-7xl mx-auto px-4 md:px-8">
         <div className="flex items-center justify-between h-16 md:h-20">
           <Link to="/" className="flex items-center gap-3">
-            <img src="/logo.png" alt="NHD" className="h-8 md:h-10 w-auto" />
+            <img src="/assets/logo.png" alt="NHD" className="h-8 md:h-10 w-auto" />
             <span className="hidden sm:block text-sm tracking-[0.3em] uppercase text-gold-500 font-display">
               NHD
             </span>

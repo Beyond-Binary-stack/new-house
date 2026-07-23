@@ -15,7 +15,8 @@ export default function AboutPreview() {
             <p className="text-gray-400 leading-relaxed mb-8">
               New House Decoration has been transforming spaces into works of art. 
               With years of experience in interior finishing, we bring precision, 
-              elegance, and craftsmanship to every project we undertake.
+              elegance, and craftsmanship to every project we undertake. Our team of 
+              skilled professionals is dedicated to delivering excellence in every detail.
             </p>
             <Link
               to="/about"
@@ -28,16 +29,12 @@ export default function AboutPreview() {
           </div>
 
           <div className="relative">
-            <div className="aspect-[4/3] bg-dark-800 border border-dark-600/30 flex items-center justify-center">
+            <div className="aspect-[4/3] overflow-hidden bg-dark-800">
               <img
-                src="/gallery/painting/img-01.jpg"
+                src="/gallery/gypsum/10.jpeg"
                 alt="About New House Decoration"
                 className="w-full h-full object-cover"
                 loading="lazy"
-                onError={(e) => {
-                  (e.target as HTMLImageElement).style.display = 'none';
-                  (e.target as HTMLImageElement).parentElement!.classList.add('flex');
-                }}
               />
             </div>
             <div className="absolute -bottom-4 -right-4 w-full h-full border border-gold-500/10 -z-10" />
